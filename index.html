@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan Pernikahan</title>
+    <link rel="stylesheet" href="Nomor1.css">
+</head>
+<body>
+
+    
+    <div class="container">
+        <header>
+            <h1>Undangan Pernikahan</h1>
+            <h1><p>Adit & Lala </p></h1>
+            <b>Sabtu, 15 Juni 2024</b>
+        </header>
+        <section class="location">
+            <h2>Lokasi Acara</h2>
+            <p>Puri Eka Bachtiar, Tangerang</p>
+            <a href="https://maps.app.goo.gl/3JLnkft9bqRgCcz26?g_st=ic" target="_blank">Lihat di Google Maps</a>
+        </section>
+        <section class="rsvp">
+            <h2>Konfirmasi Kehadiran</h2>
+            <form id="rsvpForm">
+                <label for="name">Nama</label>
+                <input type="text" id="name" name="name" required placeholder="Masukan Nama">
+
+
+                <label for="address">Alamat</label>
+                <input type="text" id="address" name="address" required placeholder="Masukan Alamat">
+
+
+                <label for="attendance">Kehadiran</label>
+                <select id="attendance" name="attendance" required>
+                    <option value="hadir">Hadir</option>
+                    <option value="tidak hadir">Tidak Hadir</option>
+                </select>
+
+                <label for="message">Pesan</label>
+                <textarea id="message" name="message" rows="4"></textarea>
+
+                <button type="submit">Kirim</button>
+            </form>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
